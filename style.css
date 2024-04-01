@@ -6,9 +6,10 @@ body{ background-color: rgb(222, 239, 255);}
     text-align: center;
 }
 
-h1{font-weight: 600;}
-a {color:rgb(43, 105, 192); transition: 0.3s;} 
+h1{font-weight: 600;  color:rgb(72, 72, 72);}
+a {color:rgb(43, 105, 192); transition: 0.3s; } 
 a:hover{color:rgb(76, 130, 205); transition: 0.3s;}
+p{ color:rgb(72, 72, 72);}
 
 .box {
     position: fixed;
@@ -30,7 +31,7 @@ border-radius: 10px;
     width: 70px;
     height: 70px;
     background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(72, 72, 72);
     text-decoration: none;
     appearance: none;
     margin:auto;    
@@ -57,5 +58,6 @@ border-radius: 10px;
         margin-right: 10%;
         margin-left: 10%;
     }
-
 }
+
+hr{  width: 30%; color:rgb(76, 130, 205);    border: 0; border-top: 9px dotted;}
