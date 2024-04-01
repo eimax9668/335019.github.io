@@ -1,5 +1,5 @@
 
-body{ background-color: rgb(213, 235, 255);}
+body{ background-color: rgb(222, 239, 255);}
 *,body{
     font-family:  helvetica , "Noto Sans JP";
     text-decoration:none;
@@ -16,7 +16,7 @@ a:hover{color:rgb(76, 130, 205); transition: 0.3s;}
     margin       : auto;
     width        : 80%;
     height       : 75px;
-    background   : rgba(255, 255, 255,0.7);
+    background   : rgba(255, 255, 255,0.8);
     border-radius: 10px;
     display: flex;
     align-items: center;
