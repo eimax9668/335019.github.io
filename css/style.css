@@ -4,7 +4,7 @@ body{ background-color: rgb(222, 239, 255);}
     font-family:  helvetica , "Noto Sans JP";
     text-decoration:none;
     text-align: center;
-    font-size: 100%;
+    text-size-adjust:100%;
 }
 
 h1{font-weight: 600;}
@@ -41,6 +41,7 @@ border-radius: 10px;
     align-items: center;
 }
 .phone{display: none;}
+
 @media screen and (max-width:768px) {
     .phone{display: block;}
 }
