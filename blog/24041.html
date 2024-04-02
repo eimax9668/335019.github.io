@@ -50,13 +50,9 @@
 <a href="javascript:copyUrl()" class="button blog" style="font-weight: bold;"><span><i class="bi bi-share-fill"></i><span id="copy">　リンクをコピー</span></span></a>
 <script>
 function copyUrl() {
-  var tempInput = document.createElement("input");
-  tempInput.value = window.location.href;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(tempInput);
-  document.getElementById("copy").innerText = "　コピー完了";
+  var url = location.href;
+  navigator.clipboard.writeText(url);
+   document.getElementById("copy").innerText = "　コピー完了";
 }
 </script>
     <br><br>
