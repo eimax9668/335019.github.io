@@ -47,34 +47,19 @@
     <bp>ほな、さいなら。</bp><br>
     <br>
 </div>
-<a href="javascript:copyUrl()" class="button blog" style="font-weight: bold;"><i class="bi bi-share-fill"></i>　リンクをコピー</a>
-<p id="copy">　　　　　</p>
-<script>function copyUrl() {
-    const element = document.createElement('input');
-    element.value = location.href;
-    document.body.appendChild(element);
-    element.select();
-    document.execCommand('copy');
-    document.body.removeChild(element);
-    document.getElementById("copy").innerText = "コピー完了";
-}</script>
+<a href="javascript:copyUrl()" class="button blog" style="font-weight: bold;"><span><i class="bi bi-share-fill"></i><span id="copy">　リンクをコピー</span></span></a>
+<script>
+function copyUrl() {
+  var tempInput = document.createElement("input");
+  tempInput.value = window.location.href;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+  document.getElementById("copy").innerText = "　コピー完了";
+}
+</script>
     <br><br>
     <p>2024 - 335019.f5.si</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
 
