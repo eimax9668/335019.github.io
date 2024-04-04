@@ -1,12 +1,8 @@
-@font-face {
-    font-family: "SourceHanSansJPNormal";
-    src: url('https://335019.f5.si/fonts/SourceHanSans-Normal.woff')format("woff"),
-    url('https://335019.f5.si/fonts/SourceHanSans-Normal.woff2')format("woff2"),
-    url('https://335019.f5.si/fonts/SourceHanSans-Normal.ttf')format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
 body{ background-color: rgb(234, 245, 255);}
 *,body{
-    font-family:  helvetica , "SourceHanSansJPNormal";
+    font-family:  helvetica , "Noto Sans JP";
     text-decoration:none;
     text-align: center;
 }
